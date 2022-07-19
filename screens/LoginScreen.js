@@ -46,46 +46,63 @@ export default function LoginScreen() {
   );
 }
 
+
+
 const styles = StyleSheet.create({
+
   errorText: {
     color: "red",
+    textAlign: "center",
     marginVertical: 20,
+    textTransform: "uppercase",
   },
 
   container: {
     flex: 1,
     justifyContent: "center",
     padding: 24,
+    backgroundColor: "#D9D1C0",
   },
+
   title: {
     fontSize: 36,
     fontWeight: "bold",
     marginBottom: 24,
+    color: "#D9896C",
   },
+
   fieldTitle: {
-    fontSize: 18,
-    marginBottom: 12,
+    fontSize: 14,
+    marginBottom: 2,
+    color: "#D9896C",
+
   },
+  
   input: {
-    borderColor: "gray",
     borderWidth: 1,
     marginBottom: 24,
     padding: 4,
     height: 36,
     fontSize: 18,
-    backgroundColor: "white",
+    color: "#D9896C",
+    backgroundColor: "#E6BE92",
+    borderColor: "#D9896C",
   },
+
   loginButton: {
-    backgroundColor: "blue",
     width: 120,
     alignItems: "center",
-    padding: 18,
+    padding: 8,
     marginTop: 12,
     marginBottom: 36,
+    backgroundColor: "#D9896C",
   },
+
   buttonText: {
-    color: "white",
-    fontWeight: "bold",
+    fontWeight: "500",
     fontSize: 18,
+    color: "#D9D1C0",
   },
+
+  
 });
