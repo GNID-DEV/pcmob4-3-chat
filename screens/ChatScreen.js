@@ -108,7 +108,10 @@ export default function ChatScreen() {
       messages={messages}
       onSend={sendMessages}
       listViewProps={{ style: { backgroundColor:"#f2f2f2"}}}
-      user={{ _id: auth.currentUser?.uid, name: auth.currentUser?.email 
+      user={{ 
+        _id: auth.currentUser?.uid, 
+        name: auth.currentUser?.email,
+        avatar: "https://placeimg.com/140/140/any", 
       }} 
       renderBubble={renderBubble}
       alwaysShowSend
