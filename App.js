@@ -9,7 +9,13 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        screenOptions={{ headerLeft: () => null, gestureEnabled: false }}
+        screenOptions={{ 
+          headerLeft: () => null, gestureEnabled: false, 
+          headerStyle: { backgroundColor: "#D9896C",
+          
+          },
+        }}
+          
       >
         <Stack.Screen name="Chat" component={ChatScreen} />
         <Stack.Screen name="Login" component={LoginScreen} />
@@ -17,3 +23,4 @@ export default function App() {
     </NavigationContainer>
   );
 }
+
