@@ -26,7 +26,7 @@ This is a simple chat application built with React Native, Firebase, and `react-
 2. **Navigate to the Project Directory**
 
     ```bash
-    cd smu-pcmob4-3-chat
+    cd smu-pcmob4-3
     ```
 
 3. **Install Dependencies**
